@@ -1,0 +1,7 @@
+# Kafka-MCP - Required Dependencies
+# Core MCP framework
+mcp[cli]>=1.0.0
+
+# Optional: High-level Kafka client (enables kafka_hl_* tools)
+# Install for consumer groups, SCRAM credentials, and advanced operations
+confluent-kafka>=2.6.0

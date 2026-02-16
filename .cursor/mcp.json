@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "kafka-mcp": {
+      "command": "python",
+      "args": ["run_kafka_mcp.py"],
+      "cwd": "${workspaceFolder}"
+    }
+  }
+}
